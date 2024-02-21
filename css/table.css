@@ -1,0 +1,24 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background:#fafafa ;
+    margin: 0 auto;
+    width: 80%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+tr:nth-child(even) {
+    background:lightgray;
+}
+
+.novo{
+    align-self: center;
+    margin-top: 1rem;
+}
